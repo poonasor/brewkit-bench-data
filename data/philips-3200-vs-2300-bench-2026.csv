@@ -1,0 +1,13 @@
+attribute,philips_3200_lattego,philips_2300_lattego,evidence_type
+grinder,100% ceramic flat-path 12 settings rated ~20000 cups,identical,manufacturer spec (usa.philips.com retrieved September 2026)
+shot character,cafe-style crema-layered shot smooth and mild rather than punchy,same in our cups,bench observation
+grinder noise,quietest grinder of our four test machines,quietest (same grinder family),bench observation
+milk system,LatteGo two-part carafe no tubes no hidden gaskets,identical,manufacturer spec
+milk-path tap rinse claim,up to 15 s (Philips 3200 documentation),10 s (Philips 2300 product page),manufacturer claim
+milk-path rinse bench,14 s daily average rinse + reassemble,14 s daily average rinse + reassemble,bench observation
+one-touch drink menu,5 varieties incl. one-touch latte macchiato and americano,3 pre-sets (espresso black coffee cappuccino) + hot water,manufacturer spec
+interface,Touch display with My Coffee Choice strength/volume,button panel and lights,manufacturer spec
+brew group maintenance,front slide-out weekly warm-water rinse; not fully user-removable,identical,manual + bench observation
+descale interval with AquaClean as directed,up to 5000 cups between descales,up to 5000 cups between descales,manufacturer claim
+extraction control exposed to user,none (no PID-style temp setting no pressure profiling fixed pre-brew aroma step only),none,bench observation
+re-dial-ins after week one,0,1 (one setting drift fixed once),bench observation

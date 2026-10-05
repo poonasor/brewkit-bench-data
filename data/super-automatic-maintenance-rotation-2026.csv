@@ -1,0 +1,17 @@
+machine,observation,value,detail
+De'Longhi Magnifica Evo,milk-path rinse + reassemble (daily average),25 s,LatteCrema carafe auto-clean cycle runs first
+Philips 3200 LatteGo,milk-path rinse + reassemble (daily average),14 s,fastest of the three
+Philips 2300 LatteGo,milk-path rinse + reassemble (daily average),14 s,two-part LatteGo no tubes
+De'Longhi Magnifica Evo,re-dial-ins needed after week one,0,consistent 1:2 shots at grind setting 4 from day two onward
+Philips 3200 LatteGo,re-dial-ins needed after week one,0,one re-dial-in-free rotation
+Philips 2300 LatteGo,re-dial-ins needed after week one,1,one setting drift after week one fixed once
+De'Longhi Magnifica Evo,grinder noise (same counter relative),Loudest of the three,conical burr 13 settings
+Philips 3200 LatteGo,grinder noise (same counter relative),Quietest,100% ceramic grinder
+Philips 2300 LatteGo,grinder noise (same counter relative),Quietest,ceramic grinder
+De'Longhi Magnifica Evo,finished cappuccino (button press to cup),Fastest,fastest button-to-finished-cappuccino time of the three
+Philips 3200 LatteGo,finished cappuccino (button press to cup),Middle,
+Philips 2300 LatteGo,finished cappuccino (button press to cup),Middle,
+De'Longhi Magnifica Evo,brew group serviceability,Removable slides out front rinses under tap,thirty-second weekly clean
+Philips 3200 LatteGo,brew group serviceability,Not user-removable,deep cleaning means descale cycles
+Philips 2300 LatteGo,brew group serviceability,Not user-removable,deep cleaning means descale cycles
+De'Longhi Magnifica S,runner-up notes,manual pannarello wand instead of carafe,same removable brew group and 13 grind settings; wand means you do the milk work manually

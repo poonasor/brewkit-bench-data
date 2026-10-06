@@ -1,0 +1,12 @@
+observation,jx_pro_s,timemore_c2,evidence_type
+"Burr","48 mm stainless steel","38 mm CNC stainless steel",manufacturer spec
+"Adjustment","10 numbers / 40 clicks per rotation, 12.5 µm per click","Stepped clicks, 14 per rotation (36 levels total)",manufacturer spec
+"Burr travel per rotation","0.5 mm","~1.2 mm",manufacturer spec
+"Capacity","30–35 g","25 g",manufacturer spec
+"Measured click size at fine end","12.5 µm per click","roughly 85 µm per click",manufacturer spec + bench observation
+"Bench dial-in, 18 g : 36 g ~28 s recipe","4 clicks of correction","1 click on the C2 — and that single C2 click jumped the shot from 22 s to 34 s",bench observation
+"Fines (<250 µm) at espresso setting","~21%","~27%",bench observation
+"Shot time spread (5 shots, same dose/ratio)","±2.1 s","±4.7 s",bench observation
+"Grind time for 18 g at espresso fineness","~40 s","~55 s",bench observation
+"Filter grind (V60, 20 g)","effectively a tie","effectively a tie",bench observation
+"Espresso suitability","Purpose-built (espresso micro-range)","Stretch goal (fine end reachable, steps coarse)",bench observation

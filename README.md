@@ -1,6 +1,6 @@
 # Espresso Machine Bench Data
 
-Original measured maintenance and workflow data for home super-automatic espresso machines, from the [Brewkit](https://brewkit.net/) gear bench. Every number below was logged on our own counter, on our own water and beans — one honest bench data point, not lab data.
+Original measured bench data for home espresso gear — super-automatics, single-boiler machines, hand grinders, and technique experiments — from the [Brewkit](https://brewkit.net/) gear bench. Every number below was logged on our own counter, on our own water and beans — one honest bench data point, not lab data.
 
 - **Website:** https://brewkit.net/
 - **Last updated:** 2026-10-06
@@ -8,7 +8,7 @@ Original measured maintenance and workflow data for home super-automatic espress
 
 ## What is in this repository?
 
-Four CSV datasets from published Brewkit bench studies, plus the method notes needed to read them. The CSVs are machine-readable; each study section below gives the answer-first summary so you can quote it without opening a file.
+Seven CSV datasets from published Brewkit bench studies, plus the method notes needed to read them. The CSVs are machine-readable; each study section below gives the answer-first summary so you can quote it without opening a file.
 
 ### Study 1 — Super-automatic maintenance rotation (2 months, 4 machines)
 
@@ -75,6 +75,62 @@ A stepped-collar grinder (Encore ESP) against a grind-by-weight grinder (Sette 2
 | Weekly maintenance | **~2 min, quick-release burr brush-out** | ~3 min, arms off, chamber brush |
 
 **Method:** three-week side-by-side, same 18 g reference doses. Bench observations are our own, logged during normal daily use.
+
+### Study 5 — Gaggia Classic Evo Pro vs Rancilio Silvia bench (2026)
+
+**Data:** [`data/gaggia-classic-pro-vs-rancilio-silvia-bench-2026.csv`](data/gaggia-classic-pro-vs-rancilio-silvia-bench-2026.csv) · **Last updated:** 2026-10-06 · **Canonical article:** [Gaggia Classic Pro vs Rancilio Silvia (2026)](https://brewkit.net/gaggia-classic-pro-vs-rancilio-silvia/)
+
+The two 58 mm single-boiler classics on the same bench. The quotable finding: the Evo Pro's small aluminum boiler is ready first and steams sooner, but shot-to-shot temperature drift is noticeable until you surf or PID it; the Silvia's 12 oz brass boiler is slower to everything yet barely breaks stride on the fourth shot in a row.
+
+**The headline numbers (bench rows):**
+
+| Observation | Gaggia Classic Evo Pro | Rancilio Silvia |
+|---|---|---|
+| Ready to pull from cold | ~1 min class (fast small boiler) | Patience — mass first, shots second |
+| Reference shot | 14 g in, 28 g out, 25–27 s | 16 g in (stock double), 32 g out, ~27 s |
+| Shot-to-shot temp drift | Noticeable; surf or PID it | Small once settled — brass mass |
+| 150 ml milk to microfoam | ~35–45 s, two-hole wand | Comparable result; longer wait to steam temp |
+| Fourth shot in a row | Recovery gap appears | Barely breaks stride |
+| Weekend descale + backflush | ~15 min | ~20 min (0.3 L brass to flush) |
+
+**Method:** same-counter side-by-side with spec rows (boiler, wand, reservoir, build) labeled `manufacturer spec` and behavior rows labeled `bench observation` in the CSV's `evidence_type` column.
+
+### Study 6 — 1Zpresso JX-Pro S vs Timemore C2 hand-grinder bench (2026)
+
+**Data:** [`data/jx-pro-s-vs-timemore-c2-bench-2026.csv`](data/jx-pro-s-vs-timemore-c2-bench-2026.csv) · **Last updated:** 2026-10-06 · **Canonical article:** [1Zpresso JX-Pro S vs Timemore C2 (2026)](https://brewkit.net/jx-pro-s-vs-timemore-c2/)
+
+Two hand grinders, same 18 g dose of the same medium-roast blend. The quotable finding: step size decides espresso dial-in — one JX-Pro S click is about a quarter of one C2 click (12.5 µm vs ~85 µm measured), and the same 18 g : 36 g ~28 s recipe needed 4 clicks of correction on the JX-Pro S versus 1 click on the C2, where that single click jumped the shot from 22 s to 34 s.
+
+**The headline numbers:**
+
+| Observation | JX-Pro S | Timemore C2 |
+|---|---|---|
+| Measured click size at fine end | 12.5 µm per click (spec) | roughly 85 µm per click (caliper bench check) |
+| Fines (<250 µm) at espresso setting | ~21% | ~27% |
+| Shot time spread (5 shots, same dose/ratio) | ±2.1 s | ±4.7 s |
+| Grind time for 18 g at espresso fineness | ~40 s | ~55 s |
+| Filter grind (V60, 20 g) | effectively a tie | effectively a tie |
+
+**Method:** same beans, same target ratio, both grinders at their best achievable espresso setting; fines from a 5-run sifting average, shot-time spread over 5 shots (bench, September 2026). The ~85 µm C2 click size is our caliper bench check against Timemore's ~80-micron-per-click class documentation; labeled in the CSV by evidence type.
+
+### Study 7 — WDT vs tap-and-tamp channeling experiment, 20 shots (2026)
+
+**Data:** [`data/espresso-channeling-wdt-2026.csv`](data/espresso-channeling-wdt-2026.csv) · **Last updated:** 2026-10-06 · **Canonical article:** [Espresso Channeling: 7 Causes, Ranked (2026 Fix Guide)](https://brewkit.net/espresso-channeling/)
+
+A paired technique experiment on a Breville Barista Express (BES870): 20 shots, same beans, same grind setting, same 18.0 g dose and 36 g yield — 10 prepared by tapping the portafilter flat and tamping, 10 with a quick 5-second needle stir (WDT) first, judged on a bottomless portafilter.
+
+**The headline numbers:**
+
+| Metric (10 shots each) | Tap + tamp | WDT + tamp |
+|---|---|---|
+| Shots with visible side jets or a wandering stream | 5 of 10 | 1 of 10 |
+| Time to 36 g (spread) | 22–34 s | 26–29 s |
+| Shots both sour and bitter in the cup | 4 of 10 | 0 of 10 |
+| Spent pucks with a visible crater | 3 of 10 | 0 of 10 |
+
+The quotable finding: five seconds of stirring needles was the single highest-return technique change we tested on this machine — visible channeling dropped from 5 of 10 shots to 1 of 10.
+
+**Method:** single-session kitchen data, same operator, not a laboratory study; direction matches published distribution experiments cited in the canonical article.
 
 ## How was this data collected? (Method)
 

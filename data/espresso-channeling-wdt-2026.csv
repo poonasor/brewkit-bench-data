@@ -1,0 +1,8 @@
+metric,tap_and_tamp,wdt_and_tamp,evidence_type
+"Setup: machine","Breville Barista Express (BES870)","Breville Barista Express (BES870)",bench observation
+"Setup: dose and yield","18.0 g dose and 36 g yield","18.0 g dose and 36 g yield",bench observation
+"Setup: prep","tapping the portafilter flat and tamping","a quick 5-second needle stir (WDT) first",bench observation
+"Shots with visible side jets or a wandering stream","5 of 10","1 of 10",bench observation
+"Time to 36 g (spread)","22–34 s","26–29 s",bench observation
+"Shots both sour and bitter in the cup","4 of 10","0 of 10",bench observation
+"Spent pucks with a visible crater","3 of 10","0 of 10",bench observation

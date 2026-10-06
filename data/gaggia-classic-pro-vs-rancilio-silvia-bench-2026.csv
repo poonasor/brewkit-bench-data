@@ -1,0 +1,15 @@
+observation,gaggia_classic_evo_pro,rancilio_silvia,evidence_type
+"Portafilter / group","58 mm chrome-plated brass, commercial-style","58 mm chrome-plated brass, 1.1 lb, commercial-style",manufacturer spec
+"Boiler","Small aluminum, fast recovery","12 oz (0.35 L) insulated lead-free brass, 952 W",manufacturer spec
+"Brew pressure","~9 bar via factory OPV (Evo Pro)","9-bar extraction, adjustable expansion valve",manufacturer spec
+"3-way solenoid","Yes — dry puck after the shot","Yes — plus backflush capable",manufacturer spec
+"Steam wand","Commercial 2-hole, no panarello sleeve","Commercial single-tip, fully articulating, insulated grip",manufacturer spec
+"Reservoir","~2 L class","74 oz (2.2 L)",manufacturer spec
+"Frame / build","Stainless body, lighter","Iron frame, stainless panels, 30 lb",manufacturer spec
+"Footprint","Compact","9 × 10.7 × 13.5 in",manufacturer spec
+"Ready to pull from cold","~1 min class (fast small boiler)","Patience — mass first, shots second",bench observation
+"Reference shot","14 g in, 28 g out, 25–27 s","16 g in (stock double), 32 g out, ~27 s",bench observation
+"Shot-to-shot temp drift","Noticeable; surf or PID it","Small once settled — brass mass",bench observation
+"150 ml milk to microfoam","~35–45 s, two-hole wand","Comparable result; longer wait to steam temp",bench observation
+"Fourth shot in a row","Recovery gap appears","Barely breaks stride",bench observation
+"Weekend descale + backflush","~15 min","~20 min (0.3 L brass to flush)",bench observation

@@ -1,0 +1,31 @@
+# This file enables citation metadata for this repository via GitHub's
+# "Cite this repository" button. Data is CC BY 4.0 (see LICENSE); prose is
+# (c) Brewkit (brewkit.net). Each study cites its canonical article URL.
+
+cff-version: 1.2.0
+message: >-
+  If you use this espresso bench data, please cite it as below and credit
+  the canonical article on brewkit.net linked from each dataset.
+title: Brewkit Espresso Bench Data
+type: dataset
+authors:
+  - family-names: Poon
+    given-names: Ricky
+    website: 'https://brewkit.net/about/'
+repository-code: 'https://github.com/poonasor/brewkit-bench-data'
+abstract: >-
+  Measured espresso bench data from brewkit.net: super-automatic maintenance
+  rotation, Philips 3200 vs 2300, DF64 vs Niche Zero, Sette 270Wi vs Encore
+  ESP, Gaggia Classic Pro vs Rancilio Silvia, JX-Pro S vs Timemore C2,
+  Barista Express vs Gaggia Classic Pro, Barista Express/Impress/Touch,
+  espresso scale response, and WDT channeling experiments.
+keywords:
+  - espresso
+  - espresso-machine
+  - coffee-data
+  - bench-testing
+  - csv-dataset
+license: CC-BY-4.0
+commit: '4d34d30'
+version: 2026.10.06
+date-released: '2026-10-06'

@@ -1,0 +1,9 @@
+observation,encore_esp,sette_270wi,evidence_type
+"Espresso dial-in, fresh bag","5 shots to window (stepped collar)","3 shots to window (micro steps)",bench observation
+"Reference shot","18 g in, 36 g out, ~27 s","18 g in, 36 g out, ~26 s",bench observation
+"Dose accuracy, 10 shots","+/-0.3 g with external scale + pulse","+/-0.1-0.2 g, auto-stop by weight",bench observation
+"18 g dose time","~9 s (setting 10-ish)","~5-6 s",bench observation
+"Static at espresso fineness","Noticeable; clumps need a shake","Minor; straight-through path helps",bench observation
+"Bean switch waste","First grind after switch is a blend","First shot usable immediately",bench observation
+"Noise character","Lower pitch, conversational","Faster, louder whir -- brief though",bench observation
+"Weekly maintenance","~2 min, quick-release burr brush-out","~3 min, arms off, chamber brush",bench observation

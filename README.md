@@ -3,12 +3,12 @@
 Original measured maintenance and workflow data for home super-automatic espresso machines, from the [Brewkit](https://brewkit.net/) gear bench. Every number below was logged on our own counter, on our own water and beans — one honest bench data point, not lab data.
 
 - **Website:** https://brewkit.net/
-- **Last updated:** 2026-10-05
+- **Last updated:** 2026-10-06
 - **License:** CC BY 4.0 (data); analysis and prose remain © Brewkit
 
 ## What is in this repository?
 
-Two CSV datasets from published Brewkit bench studies, plus the method notes needed to read them. The CSVs are machine-readable; each study section below gives the answer-first summary so you can quote it without opening a file.
+Four CSV datasets from published Brewkit bench studies, plus the method notes needed to read them. The CSVs are machine-readable; each study section below gives the answer-first summary so you can quote it without opening a file.
 
 ### Study 1 — Super-automatic maintenance rotation (2 months, 4 machines)
 
@@ -39,6 +39,42 @@ The quotable finding: in 2026 the super-automatic category's real dividing line 
 The shot character on both: a café-style, crema-layered shot that leans smooth and mild rather than punchy — the bean-to-cup character of the whole Philips Series 2x00/3x00 platform. Neither machine exposes extraction control (no PID-style temperature setting, no pressure profiling; fixed pre-brew aroma step only).
 
 **Method:** two months of side-by-side use; every spec row is labeled in the CSV with its evidence type — manufacturer spec, manufacturer claim, or bench observation — so you can separate quoted specs from measured behavior.
+
+### Study 3 — DF64 Gen 2 vs Niche Zero single-dose grinder bench (2026)
+
+**Data:** [`data/df64-vs-niche-zero-bench-2026.csv`](data/df64-vs-niche-zero-bench-2026.csv) · **Last updated:** 2026-10-06 · **Canonical article:** [DF64 vs Niche Zero (2026)](https://brewkit.net/df64-vs-niche-zero/)
+
+Two single-dose grinders, same medium-roast Ethiopia/Brazil blend, 18 g doses, one sample per grinder, dialed in advance. The quotable finding: neither grinder is "better" outright — DF64 Gen 2 gives brighter flat-burr clarity and Amazon availability; Niche Zero gives a quieter 72 dB grind and a body-forward conical cup, sold direct only.
+
+**The headline numbers:**
+
+| Observation | DF64 Gen 2 | Niche Zero |
+|---|---|---|
+| Espresso dial-in, fresh bag | 4 shots to window | **3 shots to window** |
+| Reference shot | 18 g in, 36 g out, ~26 s | 18 g in, 36 g out, ~27 s |
+| Cup character | Brighter, more texture separation | Rounded, body-forward |
+| 6 a.m. noise verdict | Noticeably louder at the cup | **Conversation quiet (72 dB spec)** |
+| Weekly maintenance | ~3 min, brush + chute wipe | **~2 min, brush + burr lift** |
+
+**Method:** three-week side-by-side, same blend, one sample per grinder. Bench observations are our own; the 72 dB figure is a manufacturer spec, labeled as such in the CSV's `evidence_type` column.
+
+### Study 4 — Baratza Sette 270Wi vs Encore ESP bench (2026)
+
+**Data:** [`data/baratza-sette-270wi-vs-encore-esp-bench-2026.csv`](data/baratza-sette-270wi-vs-encore-esp-bench-2026.csv) · **Last updated:** 2026-10-06 · **Canonical article:** [Baratza Sette 270Wi vs Encore ESP (2026)](https://brewkit.net/baratza-sette-270wi-vs-encore-esp/)
+
+A stepped-collar grinder (Encore ESP) against a grind-by-weight grinder (Sette 270Wi), same 18 g reference doses, one sample per grinder, dialed in advance. The quotable finding: the 270Wi's integrated scale removes dose error, not grind error — when a shot ran fast on the bench, the fix was still a micro-click, not a re-press.
+
+**The headline numbers:**
+
+| Observation | Encore ESP | Sette 270Wi |
+|---|---|---|
+| Espresso dial-in, fresh bag | 5 shots to window (stepped collar) | **3 shots to window (micro steps)** |
+| Dose accuracy, 10 shots | ±0.3 g with external scale + pulse | **±0.1-0.2 g, auto-stop by weight** |
+| 18 g dose time | ~9 s (setting 10-ish) | **~5-6 s** |
+| Static at espresso fineness | Noticeable; clumps need a shake | Minor; straight-through path helps |
+| Weekly maintenance | **~2 min, quick-release burr brush-out** | ~3 min, arms off, chamber brush |
+
+**Method:** three-week side-by-side, same 18 g reference doses. Bench observations are our own, logged during normal daily use.
 
 ## How was this data collected? (Method)
 

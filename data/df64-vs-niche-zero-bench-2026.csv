@@ -1,0 +1,8 @@
+observation,df64_gen2,niche_zero,evidence_type
+"Weigh-in test, 18.0 g in","17.9-18.0 g out, ionizer on","17.8-18.0 g out, no aids",bench observation
+"Bean switch crossover","First shot usable immediately","First shot usable immediately",bench observation
+"Espresso dial-in, fresh bag","4 shots to window","3 shots to window",bench observation
+"Reference shot","18 g in, 36 g out, ~26 s","18 g in, 36 g out, ~27 s",bench observation
+"Cup character","Brighter, more texture separation","Rounded, body-forward",bench observation
+"6 a.m. noise verdict","Noticeably louder at the cup","Conversation quiet (72 dB spec)",manufacturer spec + bench observation
+"Weekly maintenance","~3 min, brush + chute wipe","~2 min, brush + burr lift",bench observation

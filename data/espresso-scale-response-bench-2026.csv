@@ -1,0 +1,8 @@
+observation,timemore_black_mirror_basic_2,maestri_house_s2,bookoo_themis_mini,weightman,evidence_type
+Resolution / capacity,"0.1 g / 2,000 g","0.1 g / 2,000 g","0.1 g / 1,000 g","0.1 g / 1,000 g",manufacturer spec
+Auto-timer,Yes — starts on weight change,Yes — dual timing modes,"Yes — auto mode, first-drip",Manual button,manufacturer spec
+Charging,"USB-C, 1,600 mAh","USB-C, 500 mAh","USB-C, 500 mAh",2×AAA,manufacturer spec
+Display settle at 1 g/s simulated flow,display tracked the pour within ~0.3 s,settled within ~0.5 s,fastest settle of the four (~0.2 s),1–2 s to settle at a fast pour,bench observation
+36 g cutoff overshoot,never overshot by more than 0.4 g,,,,bench observation
+Drip-tray clearance needed,26 mm of height,15 mm plus its glass top,,17 mm,bench observation
+Platform and app notes,,holds a shot glass fine but not a cappuccino cup,Bluetooth logging into Beanconqueror,flip cover that doubles as a weighing tray,bench observation

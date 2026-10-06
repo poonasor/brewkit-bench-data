@@ -1,0 +1,10 @@
+observation,barista_express,express_impress,barista_touch,evidence_type
+Heating,ThermoCoil + PID,ThermoCoil + PID,"ThermoJet, ~3 s heat-up",manufacturer spec
+Grind settings,16,25,30 (screen-displayed),manufacturer spec
+Tamping,Manual tamper,"Assisted Impress lever, 10 kg","Manual, removable 54 mm tamper",manufacturer spec
+Milk system,Manual steam wand,Manual steam wand,"Automatic — 104–167 °F, 8 texture levels",manufacturer spec
+"Time to first drinkable shot, from box",~35 min,~20 min,~15 min (guided screen setup),bench observation
+Dial-in shots to a balanced 27 s pull,4,3 (dose trim helps),3,bench observation
+"Shot-to-shot consistency, days 2–7 (taste)",Good once dialed,Very good — tamp is a constant,Very good — timed + temp-stable,bench observation
+"Cappuccino milk, hands-on time",~45 s of wand work,~45 s of wand work,"~10 s (load jug, press)",bench observation
+Counter mess per session,Grinder scatter + puck knock,Lowest — tamp contains grounds,Moderate,bench observation

@@ -1,0 +1,12 @@
+observation,breville_barista_express_bes870xl,gaggia_classic_evo_pro_ri9380,evidence_type
+Portafilter,54 mm stainless,"58 mm commercial, chrome-plated brass",manufacturer spec
+Grinder,"Built-in conical burr, 16 settings",None — you must supply one,manufacturer spec
+Boiler / heater,Thermocoil with PID control (200 °F target),"Single aluminum boiler, 3.5 oz (100 ml)",manufacturer spec
+Controls,"Dials, programmable volumetric shots","Three rocker switches, manual timing",manufacturer spec
+Water tank,67 oz (2 L),71 oz (2.1 L),manufacturer spec
+Power,"1,600 W","1,425 W",manufacturer spec
+Warm-up,Ready fast — Thermocoil hits brew temp in well under a minute; we let ours sit 3–4 minutes for group stability,Boiler heats in ~5 minutes; we wait a full 15 for the brass group to saturate,bench observation
+Reference shot,"18 g in, 36 g out, pulled in 26–28 seconds","14 g in, 28 g out, 25–27 s",bench observation
+150 ml milk to pourable microfoam,slower and less forgiving,roughly 35–45 seconds,bench observation
+Loudest moment on either counter,grinder running 8–10 seconds per dose,quieter than pre-2019 Classics,bench observation
+Shot quality once learned,gets you 90% there automatically,will beat that 90% once you learn it,bench observation

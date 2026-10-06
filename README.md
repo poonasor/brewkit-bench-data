@@ -1,6 +1,6 @@
 # Espresso Machine Bench Data
 
-Original measured bench data for home espresso gear — super-automatics, single-boiler machines, hand grinders, and technique experiments — from the [Brewkit](https://brewkit.net/) gear bench. Every number below was logged on our own counter, on our own water and beans — one honest bench data point, not lab data.
+Original measured bench data for home espresso gear — super-automatics, Breville all-in-ones, single-boiler machines, hand grinders, espresso scales, and technique experiments — from the [Brewkit](https://brewkit.net/) gear bench. Every number below was logged on our own counter, on our own water and beans — one honest bench data point, not lab data.
 
 - **Website:** https://brewkit.net/
 - **Last updated:** 2026-10-06
@@ -8,7 +8,7 @@ Original measured bench data for home espresso gear — super-automatics, single
 
 ## What is in this repository?
 
-Seven CSV datasets from published Brewkit bench studies, plus the method notes needed to read them. The CSVs are machine-readable; each study section below gives the answer-first summary so you can quote it without opening a file.
+Ten CSV datasets from published Brewkit bench studies, plus the method notes needed to read them. The CSVs are machine-readable; each study section below gives the answer-first summary so you can quote it without opening a file.
 
 ### Study 1 — Super-automatic maintenance rotation (2 months, 4 machines)
 
@@ -131,6 +131,58 @@ A paired technique experiment on a Breville Barista Express (BES870): 20 shots, 
 The quotable finding: five seconds of stirring needles was the single highest-return technique change we tested on this machine — visible channeling dropped from 5 of 10 shots to 1 of 10.
 
 **Method:** single-session kitchen data, same operator, not a laboratory study; direction matches published distribution experiments cited in the canonical article.
+
+### Study 8 — Breville Barista Express vs Gaggia Classic Evo Pro bench (2026)
+
+**Data:** [`data/breville-barista-express-vs-gaggia-classic-pro-bench-2026.csv`](data/breville-barista-express-vs-gaggia-classic-pro-bench-2026.csv) · **Last updated:** 2026-10-06 · **Canonical article:** [Breville Barista Express vs Gaggia Classic Pro (2026)](https://brewkit.net/breville-barista-express-vs-gaggia-classic-pro/)
+
+The all-in-one against the upgradable 58 mm classic, same bench. The quotable finding: the Breville gets you 90% there automatically; the Gaggia will beat that 90% once you learn it — and its two-hole wand rolls 150 ml of milk into microfoam in roughly 35–45 seconds while the Breville's single-hole wand is slower and less forgiving.
+
+**The headline numbers (bench rows):**
+
+| Observation | Barista Express (BES870XL) | Gaggia Classic Evo Pro |
+|---|---|---|
+| Reference shot | 18 g in, 36 g out, pulled in 26–28 seconds | 14 g in, 28 g out, 25–27 s |
+| Warm-up | Ready fast — under a minute to brew temp | Boiler ~5 min; a full 15 for the brass group to saturate |
+| 150 ml milk to pourable microfoam | slower and less forgiving | **roughly 35–45 seconds** |
+| Loudest moment on either counter | grinder running 8–10 seconds per dose | quieter than pre-2019 Classics |
+| Shot quality once learned | gets you 90% there automatically | will beat that 90% once you learn it |
+
+**Method:** spec rows (portafilter, grinder, boiler, controls, tank, power) labeled `manufacturer spec`; behavior rows labeled `bench observation` in the CSV's `evidence_type` column, from the same-counter comparison in the canonical article.
+
+### Study 9 — Barista Express vs Express Impress vs Barista Touch bench (2026)
+
+**Data:** [`data/barista-express-impress-touch-bench-2026.csv`](data/barista-express-impress-touch-bench-2026.csv) · **Last updated:** 2026-10-06 · **Canonical article:** [Barista Express vs Impress vs Touch (2026)](https://brewkit.net/barista-express-vs-impress-vs-touch/)
+
+The three-tier Breville lineup on one bench. The quotable finding: the assisted-tamp Impress hits a balanced 27 s pull in 3 dial-in shots and contains the mess, while the touchscreen Touch automates milk down to ~10 s of hands-on time for a cappuccino.
+
+**The headline numbers (bench rows):**
+
+| Observation | Barista Express | Express Impress | Barista Touch |
+|---|---|---|---|
+| Time to first drinkable shot, from box | ~35 min | ~20 min | **~15 min (guided screen setup)** |
+| Dial-in shots to a balanced 27 s pull | 4 | **3 (dose trim helps)** | **3** |
+| Shot-to-shot consistency, days 2–7 | Good once dialed | Very good — tamp is a constant | Very good — timed + temp-stable |
+| Cappuccino milk, hands-on time | ~45 s of wand work | ~45 s of wand work | **~10 s (load jug, press)** |
+| Counter mess per session | Grinder scatter + puck knock | **Lowest — tamp contains grounds** | Moderate |
+
+**Method:** spec rows (heating, grind settings, tamping, milk system) labeled `manufacturer spec`; the observation table rows labeled `bench observation` in the CSV's `evidence_type` column, verbatim from the canonical article's bench table.
+
+### Study 10 — Espresso scale response bench, 4 scales (2026)
+
+**Data:** [`data/espresso-scale-response-bench-2026.csv`](data/espresso-scale-response-bench-2026.csv) · **Last updated:** 2026-10-06 · **Canonical article:** [Best Espresso Scale (2026)](https://brewkit.net/best-espresso-scale/)
+
+Four espresso scales measured with a 1 g/s simulated flow (an espresso shot pours slower; we stress-tested). The quotable finding: the BOOKOO Themis Mini was the fastest to settle of the four (~0.2 s), while the Timemore Black Mirror Basic 2 chased a 36 g cutoff and never overshot by more than 0.4 g.
+
+**The headline numbers (bench rows):**
+
+| Observation | Black Mirror Basic 2 | Maestri House S2 | Themis Mini | Weightman |
+|---|---|---|---|---|
+| Display settle at 1 g/s simulated flow | within ~0.3 s | within ~0.5 s | **fastest of the four (~0.2 s)** | 1–2 s to settle at a fast pour |
+| 36 g cutoff overshoot | **never more than 0.4 g** | — | — | — |
+| Drip-tray clearance needed | 26 mm of height | 15 mm plus its glass top | — | 17 mm |
+
+**Method:** spec rows (resolution, timer, charging) labeled `manufacturer spec`; response rows labeled `bench observation` in the CSV's `evidence_type` column, from the 1 g/s simulated-flow stress test described in the canonical article.
 
 ## How was this data collected? (Method)
 
